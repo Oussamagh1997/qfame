@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect('remotemysql.com','R63KoApJgQ','','R63KoApJgQ');
+$con=mysqli_connect('remotemysql.com','R63KoApJgQ','CPoZ81u326','R63KoApJgQ');
 $sel="SELECT year FROM years";
 $result1= mysqli_query($con,$sel);
 header('Access-Control-Allow-Origin: *');
