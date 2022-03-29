@@ -13,9 +13,9 @@ class MainController extends Controller
 
     function start(){
         if(session()->has('LoggedUser')) {
-            return redirect('/auth/home');
+            return redirect('/ousama/public/auth/home');
         }
-        else return redirect('/auth/login');
+        else return redirect('/ousama/public/auth/login');
     }
     function login(){
         return view('auth.login');
@@ -60,7 +60,7 @@ class MainController extends Controller
             //check password
             if(Hash::check($request->pwd, $userInfo->pwd)){
                 $request->session()->put('LoggedUser', $userInfo->userid);
-                return redirect('auth/home');
+                return redirect('/ousama/public/auth/home');
             }
             else{
                 return back()->with('fail' , 'incorrect password');
@@ -70,7 +70,7 @@ class MainController extends Controller
     function logout(){
         if(session()->has('LoggedUser')){
             session()->pull('LoggedUser');
-            return redirect('/auth/login');
+            return redirect('/ousama/public/auth/login');
         }
     }
 
