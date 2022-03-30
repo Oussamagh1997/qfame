@@ -1,5 +1,5 @@
 <?php
-$con=mysqli_connect('localhost','root','','fame');
+$con=mysqli_connect('remotemysql.com','R63KoApJgQ','CPoZ81u326','R63KoApJgQ');
 $sel="SELECT location FROM locations";
 $result1= mysqli_query($con,$sel);
 header('Access-Control-Allow-Origin: *');
