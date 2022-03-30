@@ -23,22 +23,22 @@ header('Access-Control-Allow-Methods: *');
         <div class="navbar-brand">Fame</div>
         <ul class="nav nav-pills nav-fill">
             <li class="nav-item">
-                <a class="nav-link" href="/ousama/public/auth/home">Home</a>
+                <a class="nav-link" href="/auth/home">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ousama/public/auth/years">Years</a>
+                <a class="nav-link" href="/auth/years">Years</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ousama/public/auth/sources">Sources</a>
+                <a class="nav-link" href="/auth/sources">Sources</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ousama/public/auth/locations">Locations</a>
+                <a class="nav-link" href="/auth/locations">Locations</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/ousama/public/auth/works">Works</a>
+                <a class="nav-link" href="/auth/works">Works</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="/ousama/public/auth/types">Types</a>
+                <a class="nav-link active" href="/auth/types">Types</a>
             </li>
         </ul>
     </div>
