@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect('localhost', 'root', '', 'fame');
+$con=mysqli_connect('remotemysql.com','R63KoApJgQ','CPoZ81u326','R63KoApJgQ');
 $sel = "SELECT authors.author, works.date, works.title, works.workid  FROM  authors INNER JOIN
 (works INNER JOIN authorof ON works.workid = authorof.workid )
 ON authors.authorid = authorof.authorid";
