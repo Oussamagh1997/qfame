@@ -17,7 +17,7 @@
                     <a class="nav-link active" href="/ousama/public/auth/home">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/ousama/public/auth/years">Years</a>
+                    <a class="nav-link" href="/auth/years">Years</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/ousama/public/auth/sources">Sources</a>
